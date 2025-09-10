@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "investements",
+  "info": {
+    "singularName": "investement",
+    "pluralName": "investements",
+    "displayName": "Investement"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "investementlogo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "investementcover": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "investementtitle": {
+      "type": "string"
+    },
+    "investementdescription": {
+      "type": "text"
+    },
+    "investementlink": {
+      "type": "string"
+    }
+  }
+}
